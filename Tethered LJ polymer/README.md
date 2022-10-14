@@ -28,7 +28,6 @@ Main function is "bd_main_blake_equi_ID_v11(name,np,u1,flow,rep)"
 Shear Flow is applied from negative to postive x direction and velocity is dependent on height from the surface in Z
 
 Requires compiling of two fortran mex files ("bd_hyd_Blake_v1.F" and "bd_force_surf_ID.F")
-Precompiled files incuded might work but cannot be modified
 
 Example compiling in matlab with proper fortran compiler setup
 
