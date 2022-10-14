@@ -31,7 +31,6 @@ Main function is "bd_main_RPY_free_ID_v11(name,np,u1,flow,rep)"
 Flow is applied from negative to postive x direction and velocity is dependent on height from the surface in Z
 
 Requires compiling of two fortran mex files ("bd_RPY_hyd_v1.F" and "bd_force_free_ID.F")
-Precompiled files incuded might work but cannot be modified
 
 Example compiling in matlab with proper fortran compiler setup
 
