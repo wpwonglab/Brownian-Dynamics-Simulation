@@ -21,14 +21,14 @@ Main function is "bd_main_RPY_free_ID_v11(name,np,u1,flow,rep)"
 
 % rep = used for seeding rng in cluster
 
-% Flow veloctiy can be modified to look at flow extension
+% Shear Flow application veloctiy can be modified to look at flow extension
 % or flow relaxation. 
 % Equilibration and production times should be modififed as needed 
 % Detailed methods can be found in supplemental of 
 % "https://ashpublications.org/blood/article/doi/10.1182/blood.2022016969/486450/Conformation-of-von-Willebrand-factor-in-shear"
 
 
-Flow is applied from negative to postive x direction and velocity is dependent on height from the surface in Z
+Shear Flow is applied from negative to postive x direction and velocity is dependent on height from the surface in Z
 
 Requires compiling of two fortran mex files ("bd_RPY_hyd_v1.F" and "bd_force_free_ID.F")
 
