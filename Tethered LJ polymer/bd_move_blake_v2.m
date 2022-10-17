@@ -11,7 +11,7 @@ function [x, y, z] = bd_move_blake_v2(n3, x, y, z, Vx, Vy, Vz, TFX, TFY, TFZ,D,B
 % dt = time step
 % kT = Thermal Energy
 %
-% by Darren Yang (ydarren@gmail.com) and Wesley Wong
+% by Hans Bergal, Darren Yang, and Wesley Wong
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 R = zeros(n3, 1);
